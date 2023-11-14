@@ -1,0 +1,16 @@
+---
+  el:
+    hosts:
+     clever_boyd:
+       ansible_connection: docker
+  deb:
+    hosts:
+     beautiful_meitner:
+      #ubuntu
+        ansible_connection: docker
+
+
+  local:
+   hosts:
+    localhost:
+      ansible_connection: local
